@@ -8,10 +8,15 @@ li {
 
 ul {
   background-color: aquamarine;
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 ul li {
+  font-size: 20px;
   color: tomato;
+  padding: 12px 24px;
 }
 
 ul li:hover {
@@ -20,6 +25,7 @@ ul li:hover {
 
 .first-v {
   display: flex;
+  height: 300px;
 }
 
 .first-v .first-v-text {
@@ -33,6 +39,7 @@ ul li:hover {
 
 .first-v .first-v-image {
   width: 50%;
+  overflow-y: hidden;
 }
 
 .first-v .first-v-image img {

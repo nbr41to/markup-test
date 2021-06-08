@@ -10,8 +10,13 @@ li {
 
 ul {
 	background-color: aquamarine;
+	list-style: none;
+	display: flex;
+	justify-content: center;
 	li {
+		font-size: 20px;
 		color: $yokutukau;
+		padding: 12px 24px;
 		&:hover {
 			color: tomato;
 		}
@@ -20,6 +25,7 @@ ul {
 
 .first-v {
 	display: flex;
+	height: 300px;
 	.first-v-text {
 		color: $yokutukau;
 		width: 50%;
@@ -30,6 +36,7 @@ ul {
 	}
 	.first-v-image {
 		width: 50%;
+		overflow-y: hidden;
 		img {
 			width: 100%;
 		}
