@@ -1,0 +1,37 @@
+$yokutukau: tomato;
+
+h1 {
+	color: $yokutukau;
+}
+
+li {
+	color: blue;
+}
+
+ul {
+	background-color: aquamarine;
+	li {
+		color: $yokutukau;
+		&:hover {
+			color: tomato;
+		}
+	}
+}
+
+.first-v {
+	display: flex;
+	.first-v-text {
+		color: $yokutukau;
+		width: 50%;
+		font-size: 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.first-v-image {
+		width: 50%;
+		img {
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,104 @@
+.site-title {
+	color: skyblue;
+	/* padding-left: 12px; */
+}
+
+header {
+	/* background-color: pink; */
+	display: flex;
+}
+
+header ul li {
+	background-color: aqua;
+}
+
+header ul {
+	background-color: greenyellow;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+}
+
+li {
+	padding: 10px 20px;
+	margin: 20px;
+	/* background-color: aquamarine; */
+	border: 4px solid gray;
+}
+li:hover {
+	background-color: aquamarine;
+}
+li:active {
+	background-color: red;
+}
+
+img {
+	width: 100%;
+	/* height: 200px; */
+}
+
+.parent {
+	width: 300px;
+	height: 300px;
+	background-color: aqua;
+}
+
+.child {
+	width: 50%;
+	height: 200px;
+	background-color: brown;
+}
+
+.ribbon2 {
+	display: inline-block;
+	position: relative;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	padding: 7px 0;
+	font-size: 18px; /* フォントサイズ */
+	background: #78d0f5; /*背景色*/
+	color: #fff; /*文字色*/
+	box-sizing: border-box;
+}
+
+.ribbon2 h3 {
+	margin: 0;
+	padding: 0 30px;
+	border-top: dashed 1px #fff; /*上の破線*/
+	border-bottom: dashed 1px #fff; /*下の破線*/
+	line-height: 46px;
+}
+
+.ribbon2:before,
+.ribbon2:after {
+	position: absolute;
+	content: '';
+	width: 0px;
+	height: 0px;
+	z-index: 1;
+}
+
+.ribbon2:before {
+	/*左端の山形*/
+	top: 0;
+	left: 0;
+	border-width: 30px 0px 30px 15px;
+	border-color: transparent transparent transparent #fff;
+	border-style: solid;
+}
+
+.ribbon2:after {
+	/*右端の山形*/
+	top: 0;
+	right: 0;
+	border-width: 30px 15px 30px 0px;
+	border-color: transparent #fff transparent transparent;
+	border-style: solid;
+}
+
+/* body {
+	margin: 0;
+} */

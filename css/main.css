@@ -1,0 +1,41 @@
+h1 {
+  color: tomato;
+}
+
+li {
+  color: blue;
+}
+
+ul {
+  background-color: aquamarine;
+}
+
+ul li {
+  color: tomato;
+}
+
+ul li:hover {
+  color: tomato;
+}
+
+.first-v {
+  display: flex;
+}
+
+.first-v .first-v-text {
+  color: tomato;
+  width: 50%;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-v .first-v-image {
+  width: 50%;
+}
+
+.first-v .first-v-image img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
